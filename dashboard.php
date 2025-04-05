@@ -55,35 +55,4 @@ require_once 'header.php'; // Your provided header.php is used here.
         </div>
     </div>
 
-    <!-- Tabs for management modules -->
-    <ul class="nav nav-tabs" id="adminTabs" role="tablist">
-        <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="tenants-tab" data-bs-toggle="tab" data-bs-target="#tenants" type="button" role="tab">Tenants</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="landlords-tab" data-bs-toggle="tab" data-bs-target="#landlords" type="button" role="tab">Landlords</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="buildings-tab" data-bs-toggle="tab" data-bs-target="#buildings" type="button" role="tab">Buildings</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews" type="button" role="tab">Reviews</button>
-        </li>
-    </ul>
-    <div class="tab-content mt-3" id="adminTabsContent">
-        <div class="tab-pane fade show active" id="tenants" role="tabpanel">
-            <?php include 'manage_tenants.php'; ?>
-        </div>
-        <div class="tab-pane fade" id="landlords" role="tabpanel">
-            <?php include 'manage_landlords.php'; ?>
-        </div>
-        <div class="tab-pane fade" id="buildings" role="tabpanel">
-            <?php include 'manage_buildings.php'; ?>
-        </div>
-        <div class="tab-pane fade" id="reviews" role="tabpanel">
-            <?php include 'manage_reviews.php'; ?>
-        </div>
-    </div>
-</div>
-
 <?php require_once 'footer.php'; ?>
