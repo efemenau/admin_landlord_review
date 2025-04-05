@@ -9,6 +9,9 @@
     <meta name="author" content="" />
     <title>Dashboard - Admin</title>
     <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/d67b16c3ad.js" crossorigin="anonymous"></script>
+
     <link href="css/styles.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 </head>
@@ -54,6 +57,10 @@
                         <a class="nav-link" href="manage_buildings.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-building"></i></div>
                             Manage Buildings
+                        </a>
+                        <a class="nav-link" href="manage_reviews.php">
+                            <div class="sb-nav-link-icon"><i class="fas fa-comments"></i></div>
+                            Manage Reviews
                         </a>
 
                         <div class="sb-sidenav-footer">
