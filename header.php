@@ -62,6 +62,10 @@
                             <div class="sb-nav-link-icon"><i class="fas fa-comments"></i></div>
                             Manage Reviews
                         </a>
+                        <a class="nav-link" href="manage_landlords.php">
+                            <div class="sb-nav-link-icon"><i class="fas fa-comments"></i></div>
+                            Landlords
+                        </a>
 
                         <div class="sb-sidenav-footer">
                             <div class="small">Logged in as:</div>
